@@ -1,0 +1,71 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261115185400
+Username: DESKTOP-IL5A0JU\нсш
+RunAs User: DESKTOP-IL5A0JU\нсш
+Configuration Name: 
+Machine: DESKTOP-IL5A0JU (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 21996
+PSVersion: 5.1.26100.8655
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8655
+BuildVersion: 10.0.26100.8655
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\reports\lab01\provision.log
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> git --version
+
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> gh --version
+gh : The term 'gh' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gh --version
++ ~~
+    + CategoryInfo          : ObjectNotFound: (gh:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+gh : The term 'gh' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gh --version
++ ~~
+    + CategoryInfo          : ObjectNotFound: (gh:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> uv --version
+
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> Get-Item "$env:LOCALAPPDATA\Programs\Obsidian\Obsidian.exe" -ErrorAction SilentlyContinue | Select-Object FullName, VersionInfo
+
+FullName                                                  VersionInfo
+--------                                                  -----------
+C:\Users\нсш\AppData\Local\Programs\Obsidian\Obsidian.exe File:             C:\Users\нсш\AppData\Local\Programs\Obsi...
+
+
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> git --version
+
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> gh --version
+gh : The term 'gh' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gh --version
++ ~~
+    + CategoryInfo          : ObjectNotFound: (gh:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+gh : The term 'gh' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gh --version
++ ~~
+    + CategoryInfo          : ObjectNotFound: (gh:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> uv --version
+
+PS C:\Users\нсш\projects\ai-systems-design-course\training-project> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261115185401
+**********************
